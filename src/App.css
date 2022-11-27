@@ -10,8 +10,6 @@
 .Title {
   text-align: center;
   font-size: 30px;
-  font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
 }
 .Title::after {
