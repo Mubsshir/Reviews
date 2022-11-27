@@ -23,7 +23,10 @@ const ReviewCard = () => {
         }
     }
     const surprise = () => {
-        let surpriseIndex = Math.floor(Math.random() * data.length);
+        let surpriseIndex = Math.floor(Math.random() * data.length);;
+        while (surpriseIndex === index) {
+            surpriseIndex = Math.floor(Math.random() * data.length);
+        }
         setIndex(surpriseIndex);
     }
     return (
